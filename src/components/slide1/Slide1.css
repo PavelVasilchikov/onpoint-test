@@ -1,0 +1,218 @@
+.item-1 {
+  color: black;
+}
+
+.helo_txt {
+  font-size: 30px;
+  font-family: "DINPro";
+  color: rgb(36, 36, 36);
+  text-transform: uppercase;
+  line-height: 4.074;
+  position: absolute;
+  left: 70px;
+  top: 100px;
+  z-index: 7;
+}
+
+.title {
+  font-size: 100px;
+  font-family: "Gilroy-Light";
+  color: rgb(23, 23, 23);
+  text-transform: uppercase;
+  line-height: 1.073;
+  text-align: left;
+  position: absolute;
+  left: 70px;
+  top: 130px;
+  z-index: 6;
+  letter-spacing: 10px;
+}
+.title_HE {
+  font-family: "Gilroy-ExtraBold";
+}
+
+.Group_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 577px;
+  height: 161px;
+  z-index: 6;
+}
+.Ellipse_1 {
+  border-radius: 50%;
+  background-color: rgb(23, 23, 23);
+  position: absolute;
+  left: 22px;
+  top: 13px;
+  width: 139px;
+  height: 136px;
+  z-index: 3;
+}
+.buttonNext {
+  position: absolute;
+  left: 550px;
+  top: 226px;
+  width: 289px;
+  height: 80px;
+  z-index: 2;
+  user-select: none;
+}
+
+.Layer_8 {
+  position: absolute;
+  left: 850px;
+  top: 220px;
+  width: 110px;
+  height: 113px;
+  z-index: 17;
+  animation: infinityLoopLayer8 25s ease-in-out infinite;
+}
+
+.Layer_7 {
+  position: absolute;
+  left: 0px;
+  top: 70px;
+  width: 127px;
+  height: 127px;
+  z-index: 16;
+}
+
+.Layer_4_copy_2 {
+  position: absolute;
+  left: 910px;
+  top: 20px;
+  width: 70px;
+  height: 70px;
+  z-index: 14;
+}
+
+.Layer_4_copy {
+  position: absolute;
+  left: 350px;
+  top: 650px;
+  width: 70px;
+  height: 70px;
+  z-index: 14;
+}
+
+.pink_sperm {
+  position: absolute;
+  left: 0px;
+  top: 600px;
+  width: 300px;
+  height: 153px;
+  z-index: 3;
+}
+
+.bakti_1 {
+  position: absolute;
+  left: 19px;
+  top: 500px;
+  width: 80px;
+  height: 80px;
+  z-index: 4;
+  animation: infinityLoopBakti_1 30s ease-in-out infinite;
+}
+
+.Layer_4 {
+  position: absolute;
+  left: 500px;
+  top: 650px;
+  width: 200px;
+  height: 200px;
+  z-index: 12;
+  animation: infinityLoopLayer_4 20s ease-in-out infinite;
+}
+
+.pink_sperm_1 {
+  position: absolute;
+  left: 435px;
+  top: 175px;
+  width: 592px;
+  height: 93px;
+  z-index: 11;
+}
+
+.Layer_5 {
+  position: absolute;
+  left: 690px;
+  top: 50px;
+  width: 60px;
+  height: 60px;
+  z-index: 15;
+  animation: infinityLoopLayer_5 15s ease-in-out infinite;
+}
+
+@keyframes infinityLoopLayer_5 {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+  50% {
+    transform: translate(-20px, -20px) rotate(20deg) scale(120%);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+}
+
+@keyframes infinityLoopLayer_4 {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+  50% {
+    transform: translate(-50px, 50px) rotate(20deg) scale(130%);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+}
+
+@keyframes infinityLoopBakti_1 {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+  50% {
+    transform: translate(50px, 50px) rotate(180deg) scale(130%);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg) scale(100%);
+  }
+}
+
+@keyframes infinityLoopLayer8 {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(-50px, -50px) rotate(-45deg);
+  }
+  50% {
+    transform: translate(0, -100px) rotate(-90deg);
+  }
+  75% {
+    transform: translate(50px, -50px) rotate(-45deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("../../assets/fonts/dinpro-regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../../assets/fonts/Gilroy-Light.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../../assets/fonts/Gilroy-ExtraBold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
