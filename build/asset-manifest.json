@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2b768b35.css",
+    "main.js": "/static/js/main.8ad9eeb4.js",
+    "static/media/bg.png": "/static/media/bg.7e7ffa47ff5441e344a6.png",
+    "static/media/Circe_Regular.otf": "/static/media/Circe_Regular.c9f3dec57c4c38810bd4.otf",
+    "static/media/Layer4.png": "/static/media/Layer4.e5a39d5694453f09cdf5.png",
+    "static/media/pink_sperm_1.png": "/static/media/pink_sperm_1.297dcdb1e0d621a29d75.png",
+    "static/media/Layer8.png": "/static/media/Layer8.003e053e13f134d835b8.png",
+    "static/media/dinpro-regular.otf": "/static/media/dinpro-regular.cbb8d83522bd1b2d06a4.otf",
+    "static/media/Layer7.png": "/static/media/Layer7.00e3a849f8e715611e3f.png",
+    "static/media/Layer4copy.png": "/static/media/Layer4copy.62b58e6d39b01774eb86.png",
+    "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
+    "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
+    "static/media/pink_sperm.png": "/static/media/pink_sperm.1c597d881f66a432c106.png",
+    "static/media/bakti_1.png": "/static/media/bakti_1.924a3252133d6b24b8f2.png",
+    "static/media/Layer5.png": "/static/media/Layer5.ecaf4d33854083fa811f.png",
+    "static/media/Layer4copy2.png": "/static/media/Layer4copy2.f2d2c5dba01ca6e8abbe.png",
+    "static/media/Button.png": "/static/media/Button.c37e66743950d8281689.png",
+    "index.html": "/index.html",
+    "main.2b768b35.css.map": "/static/css/main.2b768b35.css.map",
+    "main.8ad9eeb4.js.map": "/static/js/main.8ad9eeb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b768b35.css",
+    "static/js/main.8ad9eeb4.js"
+  ]
+}
