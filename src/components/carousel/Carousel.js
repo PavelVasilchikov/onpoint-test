@@ -12,6 +12,9 @@ export const Carousel = ({ children }) => {
   const [offset, setOffset] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
+  const [isDraggingScrollbar, setIsDraggingScrollbar] = useState(false); // Новое состояние
+  const [prevSlide, setPrevSlide] = useState(0);
+  const [isActive, setIsActive] = useState(0);
 
   useEffect(() => {
     setPages(
@@ -22,6 +25,7 @@ export const Carousel = ({ children }) => {
   }, [children]);
 
   const handleStart = (clientX) => {
+    if (isDraggingScrollbar) return; // Блокируем свайп, если тянут шарик
     setIsDragging(true);
     setStartX(clientX);
 
@@ -32,7 +36,7 @@ export const Carousel = ({ children }) => {
   };
 
   const handleMove = (clientX) => {
-    if (!isDragging) return;
+    if (!isDragging || isDraggingScrollbar) return; // Блокируем движение, если тянут шарик
 
     const deltaX = clientX - startX;
     const totalPages = pages.length;
@@ -94,11 +98,12 @@ export const Carousel = ({ children }) => {
     let newOffset = offset - PAGE_WIDTH;
 
     if (newOffset < maxOffset) {
-      newOffset = 0; 
+      newOffset = 0;
     }
 
     setOffset(newOffset);
   };
+
 
   return (
     <div className="main-container">
@@ -121,8 +126,12 @@ export const Carousel = ({ children }) => {
           onMouseUp={handleEnd}
           onMouseLeave={handleEnd}
         >
-          {React.Children.map(pages, (page) =>
-            React.cloneElement(page, { goToNextSlide }) 
+          {React.Children.map(pages, (page, index) =>
+            React.cloneElement(page, {
+              isActive: Math.abs(Math.round(offset / PAGE_WIDTH)) === index,
+              goToNextSlide,
+              setIsDraggingScrollbar,
+            })
           )}
         </div>
 
