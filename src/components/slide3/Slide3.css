@@ -2,3 +2,273 @@
   color: black;
   background-position: right;
 }
+
+.bottle {
+  position: absolute;
+  width: 100%;
+  z-index: 25;
+}
+
+.key-message {
+  position: absolute;
+  font-family: "DINPro";
+  text-transform: uppercase;
+  font-size: 25px;
+  width: 100%;
+  margin-left: 700px;
+  top: 130px;
+  letter-spacing: 2px;
+}
+
+.brend {
+  position: absolute;
+  font-family: "Gilroy-Light";
+  text-transform: uppercase;
+  font-size: 110px;
+  width: 100%;
+  margin-left: 685px;
+  top: 80px;
+  letter-spacing: 2px;
+}
+
+.brend-bold {
+  font-family: "Gilroy-ExtraBold";
+}
+
+.box-1 {
+  position: absolute;
+  width: 70%;
+  top: 250px;
+  margin-left: -200px;
+  z-index: 23;
+}
+
+.box-2 {
+  position: absolute;
+  width: 50%;
+  top: 250px;
+  margin-left: 600px;
+  z-index: 23;
+}
+.icon1 {
+  position: absolute;
+  width: 9%;
+  top: 350px;
+  margin-left: 500px;
+  z-index: 23;
+}
+
+.icon2 {
+  position: absolute;
+  width: 8%;
+  top: 335px;
+  margin-left: -240px;
+  z-index: 24;
+}
+
+.box-2-text {
+  z-index: 24;
+  font-family: "DINPro";
+  width: 150px;
+  position: absolute;
+  margin-left: 580px;
+  margin-top: 180px;
+  font-size: 25px;
+}
+
+.box-1-text {
+  z-index: 24;
+  font-family: "DINPro";
+  width: 250px;
+  position: absolute;
+  margin-left: -75px;
+  margin-top: 280px;
+  font-size: 25px;
+}
+
+.button {
+  z-index: 25;
+  width: 25%;
+  position: absolute;
+  margin-top: 490px;
+  margin-left: 600px;
+  cursor: pointer;
+}
+.R-9 {
+  position: absolute;
+  width: 100%;
+}
+.body {
+  position: absolute;
+  width: 80%;
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.btn_close {
+  position: absolute;
+  width: 3%;
+  margin-top: -450px;
+  margin-left: 800px;
+  z-index: 25;
+}
+
+.list-text {
+  z-index: 25;
+  font-family: "DINPro";
+  width: 500px;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 190px;
+  font-size: 25px;
+  list-style-type: none;
+}
+
+.list-text li {
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.list-text-bold {
+  font-family: "Gilroy-ExtraBold";
+  color: #9bd0eb;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 520px;
+  margin-left: -100px;
+  z-index: 25;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.dots {
+  display: flex;
+  gap: 10px;
+  z-index: 25;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 25;
+}
+
+.dot.active {
+  background-color: #ff69b4;
+}
+
+.b1 {
+  position: absolute;
+  margin-top: -300px;
+  z-index: 25;
+  margin-left: -850px;
+  width: 5%;
+  animation: infinityLoopB1 10s ease-in-out infinite;
+}
+
+.b2 {
+  position: absolute;
+  margin-top: -50px;
+  z-index: 25;
+  margin-left: -450px;
+  width: 10%;
+  animation: infinityLoopB2 5s ease-in-out infinite;
+}
+
+.b3 {
+  position: absolute;
+  z-index: 26;
+  margin-top: 750px;
+  margin-left: -450px;
+  width: 12%;
+  animation: infinityLoopB3 7s ease-in-out infinite;
+}
+
+.b4 {
+  position: absolute;
+  z-index: 26;
+  margin-top: 250px;
+  margin-left: -850px;
+  width: 9%;
+  animation: infinityLoopB4 7s ease-in-out infinite;
+}
+
+@keyframes infinityLoopB1 {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+  50% {
+    transform: translate(20px, -20px) rotate(20deg) scale(120%);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+}
+
+@keyframes infinityLoopB2 {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+  50% {
+    transform: translate(-20px, 20px) rotate(20deg) scale(120%);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+}
+
+@keyframes infinityLoopB3 {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+  50% {
+    transform: translate(-20px, -20px) rotate(20deg) scale(120%);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+}
+
+@keyframes infinityLoopB4 {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+  50% {
+    transform: translate(30px, -10px) rotate(20deg) scale(120%);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg) scale(100%);
+  }
+}
+
+@font-face {
+  font-family: "DINPro";
+  src: url("../../assets/fonts/dinpro-regular.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("../../assets/fonts/Gilroy-Light.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../../assets/fonts/Gilroy-ExtraBold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

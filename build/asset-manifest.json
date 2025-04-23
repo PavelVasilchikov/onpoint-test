@@ -1,11 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b768b35.css",
-    "main.js": "/static/js/main.8ad9eeb4.js",
+    "main.css": "/static/css/main.841a336a.css",
+    "main.js": "/static/js/main.5b7fd759.js",
     "static/media/bg.png": "/static/media/bg.7e7ffa47ff5441e344a6.png",
     "static/media/Circe_Regular.otf": "/static/media/Circe_Regular.c9f3dec57c4c38810bd4.otf",
+    "static/media/Rectangle2copy2.png": "/static/media/Rectangle2copy2.18ed06e61e49d7997ea5.png",
+    "static/media/bottle.png": "/static/media/bottle.4852931caf9a1b64a0fc.png",
+    "static/media/Rectangle2copy3.png": "/static/media/Rectangle2copy3.79d920e34ec37762beb6.png",
     "static/media/Layer4.png": "/static/media/Layer4.e5a39d5694453f09cdf5.png",
+    "static/media/Layer3copy6.png": "/static/media/Layer3copy6.f7fe7a9479a9c28731f2.png",
     "static/media/pink_sperm_1.png": "/static/media/pink_sperm_1.297dcdb1e0d621a29d75.png",
+    "static/media/dinpro-bold.ttf": "/static/media/dinpro-bold.3bb1d65ee84d8fa092e0.ttf",
     "static/media/Layer8.png": "/static/media/Layer8.003e053e13f134d835b8.png",
     "static/media/dinpro-regular.otf": "/static/media/dinpro-regular.cbb8d83522bd1b2d06a4.otf",
     "static/media/Layer7.png": "/static/media/Layer7.00e3a849f8e715611e3f.png",
@@ -13,16 +18,21 @@
     "static/media/Gilroy-ExtraBold.otf": "/static/media/Gilroy-ExtraBold.0094146a0505298ed06a.otf",
     "static/media/Gilroy-Light.otf": "/static/media/Gilroy-Light.cc7ab55d27205bd64001.otf",
     "static/media/pink_sperm.png": "/static/media/pink_sperm.1c597d881f66a432c106.png",
+    "static/media/2.png": "/static/media/2.25b45e6b4c2bb1a9b490.png",
     "static/media/bakti_1.png": "/static/media/bakti_1.924a3252133d6b24b8f2.png",
     "static/media/Layer5.png": "/static/media/Layer5.ecaf4d33854083fa811f.png",
     "static/media/Layer4copy2.png": "/static/media/Layer4copy2.f2d2c5dba01ca6e8abbe.png",
+    "static/media/4.png": "/static/media/4.8bdc29abe804282850d4.png",
+    "static/media/Rectangle9.png": "/static/media/Rectangle9.672c3d087eb21e85aeef.png",
     "static/media/Button.png": "/static/media/Button.c37e66743950d8281689.png",
+    "static/media/btn.png": "/static/media/btn.20863d3af1572625e3dd.png",
+    "static/media/body.png": "/static/media/body.78442cc25b97d8028ba9.png",
     "index.html": "/index.html",
-    "main.2b768b35.css.map": "/static/css/main.2b768b35.css.map",
-    "main.8ad9eeb4.js.map": "/static/js/main.8ad9eeb4.js.map"
+    "main.841a336a.css.map": "/static/css/main.841a336a.css.map",
+    "main.5b7fd759.js.map": "/static/js/main.5b7fd759.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b768b35.css",
-    "static/js/main.8ad9eeb4.js"
+    "static/css/main.841a336a.css",
+    "static/js/main.5b7fd759.js"
   ]
 }

@@ -12,7 +12,7 @@ export const Carousel = ({ children }) => {
   const [offset, setOffset] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
-  const [isDraggingScrollbar, setIsDraggingScrollbar] = useState(false); // Новое состояние
+  const [isDraggingScrollbar, setIsDraggingScrollbar] = useState(false);
   const [prevSlide, setPrevSlide] = useState(0);
   const [isActive, setIsActive] = useState(0);
 
@@ -25,7 +25,7 @@ export const Carousel = ({ children }) => {
   }, [children]);
 
   const handleStart = (clientX) => {
-    if (isDraggingScrollbar) return; // Блокируем свайп, если тянут шарик
+    if (isDraggingScrollbar) return;
     setIsDragging(true);
     setStartX(clientX);
 
@@ -36,7 +36,7 @@ export const Carousel = ({ children }) => {
   };
 
   const handleMove = (clientX) => {
-    if (!isDragging || isDraggingScrollbar) return; // Блокируем движение, если тянут шарик
+    if (!isDragging || isDraggingScrollbar) return; 
 
     const deltaX = clientX - startX;
     const totalPages = pages.length;

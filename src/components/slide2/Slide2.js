@@ -4,7 +4,6 @@ import "./Slide2.css";
 import btnScrll from "../../assets/slide2/btnScrll.png";
 import rectangle1 from "../../assets/slide2/Rectangle1.png";
 import L3C6 from "../../assets/slide2/Layer3copy6.png";
-import L3C5 from "../../assets/slide2/Layer3copy5.png";
 
 export default function Slide2({ setIsDraggingScrollbar, isActive }) {
   const textContainerRef = useRef(null);
@@ -32,7 +31,7 @@ export default function Slide2({ setIsDraggingScrollbar, isActive }) {
 
   const handleMouseDown = () => {
     setIsDragging(true);
-    setIsDraggingScrollbar(true); // Уведомляем родителя о начале перетаскивания
+    setIsDraggingScrollbar(true);
     document.body.style.userSelect = "none";
   };
 
@@ -58,7 +57,7 @@ export default function Slide2({ setIsDraggingScrollbar, isActive }) {
 
   const handleMouseUp = () => {
     setIsDragging(false);
-    setIsDraggingScrollbar(false); // Уведомляем родителя о завершении перетаскивания
+    setIsDraggingScrollbar(false); 
     document.body.style.userSelect = "";
   };
 
@@ -93,7 +92,6 @@ export default function Slide2({ setIsDraggingScrollbar, isActive }) {
 
   useEffect(() => {
     if (isActive) {
-      console.log("привет");
       setIsSpermAnimation(true);
     } else {
       setIsSpermAnimation(false);
@@ -134,6 +132,7 @@ export default function Slide2({ setIsDraggingScrollbar, isActive }) {
         vitae tortor condimentum lacinia. Et malesuada fames ac turpis egestas
         integer eget. Elementum pulvinar etiam non quam lacus suspendisse
         faucibus interdum posuere.
+        <br />
         <br />
         Amet justo donec enim diam vulputate ut pharetra sit. Risus ultricies
         tristique nulla aliquet enim tortor at auctor. Velit sed ullamcorper
